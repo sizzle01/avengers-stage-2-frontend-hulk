@@ -13,105 +13,94 @@ body {
 
 /*SECTION 2 DESIGH BY TUNDE*/
 
-.head-part2 {
-    position: absolute;
-    width: 1792px;
-    height: 1972px;
-    left: 0px;
-    top: 1944px;
+.section2 {
     background: #000000;
 }
 
 .arrow {
     width: 60px;
     height: 29px;
-    left: 1479px;
-    top: 1966px;
-    border: 5px solid #d66939;
 }
 
-h3 {
-    width: 455px;
-    height: 59px;
-    left: 665px;
-    top: 2023px;
-    font-family: Calibri;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 59px;
-    /* identical to box height */
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-.part2-paragraph {
-    width: 1390px;
-    height: 38px;
-    left: 224px;
-    top: 2112px;
-    font-family: Calibri;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 106.07%;
-    /* or 38px */
-    text-align: center;
-    letter-spacing: 0.01em;
-    color: #ffffff;
+.corner {
+    display: flex;
+    margin-left: 83rem;
 }
 
 h2 {
-    width: 338px;
-    height: 78px;
-    left: 1021px;
-    top: 2404px;
-    font-family: Calibri;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 78px;
+    color: #ffffff;
+}
+
+h5 {
+    color: #ffffff;
+}
+
+h3 {
     text-align: center;
+    font-weight: bold;
+    font-size: 48px;
     color: #ffffff;
 }
 
 p {
-    width: 578px;
-    height: 88px;
-    left: 1021px;
-    top: 2511px;
-    font-family: Calibri;
-    font-style: normal;
+    text-align: center;
     font-weight: 300;
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 18px;
     color: #ffffff;
 }
 
-button {
-    width: 482px;
-    height: 59px;
-    left: 1026px;
-    top: 2737px;
-    font-family: Calibri;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 59px;
-    /* identical to box height */
-    text-align: center;
-    color: #000000;
-    width: 491px;
-    height: 96px;
-    left: 1021px;
-    top: 2719px;
-    background: #d66939;
-    border: 1px solid #000000;
-    box-sizing: border-box;
+.room-desc1 {
+    width: 350px;
+    height: 88px;
+    text-align: left;
 }
 
-.row {
-    display: flex;
-    grid-gap: 30px:
+.room-desc2 {
+    width: 350px;
+    height: 88px;
+    text-align: left;
+    margin-left: 405px;
+}
+
+.gallery {
+    margin-top: 30px;
+    flex-wrap: wrap;
+    margin-left: 45px;
+}
+
+.room1-price {
+    align-content: center;
+    justify-content: center;
+    margin-top: 10vh;
+    float: left;
+}
+
+.room2-price {
+    align-content: right;
+    justify-content: right;
+    margin-top: 15vh;
+    text-align: right;
+}
+
+.price {
+    text-align: left;
+}
+
+.price2 {
+    text-align: right;
+}
+
+button {
+    background: #d66939;
+    border: 1px solid #000000;
+    font-size: 50rem;
+    width: 360px;
+    height: 57px;
+    font-weight: bold;
+    text-size-adjust: 60px;
+}
+
+.part2-image {
+    height: 500px;
+    width: 600px;
 }
